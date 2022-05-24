@@ -77,7 +77,6 @@ func (dForest *DeepForest) Train(groves int, trees int, deepTrees int) {
 				}
 			}
 			dForest.Results = append(dForest.Results, float64(p)/float64(dForest.Forest.NSize))
-			fmt.Println("Grove", i, float64(p)/float64(dForest.Forest.NSize))
 		}
 	}
 	//create deep forest
