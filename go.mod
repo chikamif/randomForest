@@ -1,4 +1,4 @@
-module github.com/malaschitz/randomForest
+module github.com/chikamif/randomForest
 
 require (
 	github.com/mattes/migrate v3.0.1+incompatible
