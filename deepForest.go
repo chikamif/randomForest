@@ -1,7 +1,6 @@
 package randomforest
 
 import (
-	"fmt"
 	"math/rand"
 )
 
